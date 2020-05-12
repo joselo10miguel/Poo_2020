@@ -9,12 +9,11 @@ import java.util.Scanner;
  */
 public class Ejecuta1 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        Ejercicio1 Ejercicio_1 = new Ejercicio1();
-        System.out.println("Ingrese el nombre del Producto");
-        Ejercicio_1.setNombreA(entrada.nextLine());
-        System.out.println("Ingrese la cantidad del producto Elegido");
-        Ejercicio_1.setNarticulos(entrada.nextInt());
+     Scanner entrada = new Scanner(System.in);
+        
+        System.out.println("Ingrese el nombre del Producto y la cantidad");
+         Ejercicio1 Ejercicio_1 = new Ejercicio1(entrada.nextLine(),entrada.nextInt());
+        
         Ejercicio_1.setCosto((Ejercicio_1.getNarticulos()*3.5)+10700);
         
         System.out.println("**Registro de datos del Articulo**");
