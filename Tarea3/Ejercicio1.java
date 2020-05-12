@@ -16,6 +16,12 @@ public class Ejercicio1 {
     private String nombreA;
     private double costo;
 
+    public Ejercicio1(String nombreA,int narticulos) {
+         this.nombreA = nombreA;
+        this.narticulos = narticulos;
+       
+    }
+
     public String getNombreA() {
         return nombreA;
     }

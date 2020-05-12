@@ -5,13 +5,19 @@ del metro cuadrado.
  */
 package Tarea3;
 
-
 public class Ejercicio2 {
-     private double ancho;
+
+    private double ancho;
     private double costo;
     private double costoTotal;
-    
     private double largo;
+
+    public Ejercicio2(double ancho, double largo, double costo) {
+        this.ancho = ancho;
+        this.costo = costo;
+        this.largo = largo;
+    }
+    
 
     public double getLargo() {
         return largo;
@@ -44,6 +50,5 @@ public class Ejercicio2 {
     public void setCostoTotal(double costoTotal) {
         this.costoTotal = costoTotal;
     }
-    
-    
+
 }

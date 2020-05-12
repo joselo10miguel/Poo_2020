@@ -10,6 +10,11 @@ public class Ejercicio5 {
     private int tiempo;
     private int distanciaRecorrida;
 
+    public Ejercicio5(int tiempo) {
+        this.tiempo = tiempo;
+    }
+    
+
     public int getTiempo() {
         return tiempo;
     }

@@ -11,6 +11,11 @@ public class Ejercicio3 {
     private int segundos;
     private int dias;
 
+    public Ejercicio3(int horas) {
+        this.horas = horas;
+    }
+    
+
     public int getHoras() {
         return horas;
     }

@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class Ejecuta1 {
     public static void main(String[] args) {
-     Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         
         System.out.println("Ingrese el nombre del Producto y la cantidad");
          Ejercicio1 Ejercicio_1 = new Ejercicio1(entrada.nextLine(),entrada.nextInt());
